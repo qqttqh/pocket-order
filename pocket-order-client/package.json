@@ -1,0 +1,29 @@
+{
+  "name": "pocket-order-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ali-oss": "^6.21.0",
+    "axios": "^1.7.7",
+    "crypto-js": "^4.2.0",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.8.5",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.2.4",
+    "pinia-plugin-persistedstate": "^4.1.1",
+    "uuid": "^10.0.0",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "sass": "^1.79.5",
+    "vite": "^5.4.8"
+  }
+}
